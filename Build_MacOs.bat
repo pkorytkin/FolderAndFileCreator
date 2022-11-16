@@ -1,0 +1,1 @@
+dotnet publish --configuration Release  --self-contained true ".\FolderAndFileCreator\FolderAndFileCreator.csproj" -r osx.12-x64 -p:PublishSingleFile=true --output ".\Build\OSX_x64\FolderAndFileCreator"

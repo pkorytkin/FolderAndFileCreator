@@ -1,0 +1,1 @@
+dotnet publish --configuration Release  --self-contained true ".\FolderAndFileCreator\FolderAndFileCreator.csproj" -r win-x64 -p:PublishSingleFile=true --output ".\Build\Windows64\FolderAndFileCreator"
